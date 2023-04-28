@@ -26,10 +26,6 @@
                 {
                     "type": "uint8",
                     "name": "addr_role"
-                },
-                {
-                    "type": "uint8",
-                    "name": "k"
                 }
             ],
             "returns": {
@@ -63,6 +59,13 @@
                     "name": "result"
                 }
             ],
+            "returns": {
+                "type": "void"
+            }
+        },
+        {
+            "name": "claim_funds",
+            "args": [],
             "returns": {
                 "type": "void"
             }

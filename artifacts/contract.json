@@ -1,0 +1,79 @@
+{
+    "name": "fitness challenge app",
+    "methods": [
+        {
+            "name": "app_create",
+            "args": [
+                {
+                    "type": "uint64",
+                    "name": "stake_amt"
+                }
+            ],
+            "returns": {
+                "type": "void"
+            }
+        },
+        {
+            "name": "read_challenger_addr",
+            "args": [],
+            "returns": {
+                "type": "address"
+            }
+        },
+        {
+            "name": "optin_role",
+            "args": [
+                {
+                    "type": "uint8",
+                    "name": "addr_role"
+                },
+                {
+                    "type": "uint8",
+                    "name": "k"
+                }
+            ],
+            "returns": {
+                "type": "string"
+            }
+        },
+        {
+            "name": "deposit_stake",
+            "args": [
+                {
+                    "type": "pay",
+                    "name": "pay"
+                }
+            ],
+            "returns": {
+                "type": "void"
+            }
+        },
+        {
+            "name": "start_challenge",
+            "args": [],
+            "returns": {
+                "type": "void"
+            }
+        },
+        {
+            "name": "end_challenge",
+            "args": [
+                {
+                    "type": "uint8",
+                    "name": "result"
+                }
+            ],
+            "returns": {
+                "type": "void"
+            }
+        },
+        {
+            "name": "delete",
+            "args": [],
+            "returns": {
+                "type": "void"
+            }
+        }
+    ],
+    "networks": {}
+}

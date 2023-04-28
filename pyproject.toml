@@ -56,6 +56,7 @@ target-version = "py310"
 [tool.ruff.flake8-annotations]
 allow-star-arg-any = true
 suppress-none-returning = true
+ignore-init-module-imports = true
 
 
 [tool.pytest.ini_options]
